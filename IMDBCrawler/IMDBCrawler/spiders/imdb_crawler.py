@@ -17,4 +17,7 @@ class CrawlingSpider( CrawlSpider ):
             "Year" : response.css('a[class = "ipc-link ipc-link--baseAlt ipc-link--inherit-color sc-8c396aa2-1 iOtMms"]::text').get(),
             "Rating" : response.css('span[class = "sc-7ab21ed2-1 eUYAaq"]::text').get()
         }
+
+
+
     
